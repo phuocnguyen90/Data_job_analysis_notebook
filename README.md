@@ -8,11 +8,16 @@ The dataset was processed manually using Excel, but there are still inconsistenc
 This dataset contains 3188 job postings, which originally contains 9 columns and was aggregated into 34 columns. Job descriptions were translated by Google, with minor manual editing.
 ## Methodology
 **Data Preprocessing:** Cleaning and structuring the dataset for analysis.
-EDA: Skills extracted from job descriptions were visualized using word clouds. Analyzing the dataset to understand the distribution and relationships between dependent and independent variables
+
+**EDA:** Skills extracted from job descriptions were visualized using word clouds. Analyzing the dataset to understand the distribution and relationships between dependent and independent variables
+
 **Salary Prediction:** Utilizing machine learning models like XGBoost, Random Forest, and Polynomial Regression to predict salaries.
+
 **Job Role Classification:** Implementing NLP for skill extraction and employing multi-label regression and neural networks for role classification.
+
 ## Technologies Used
 Python, Pandas, NumPy, spaCy, NLTK, Matplotlib, Seaborn, Sklearn, XGBoost, TensorFlow.
+
 ## Results and Conclusion
 Achieved up to 77% accuracy in salary predictions.
 Demonstrated complexities in role classification, highlighting the need for quality data.
